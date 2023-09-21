@@ -1,0 +1,25 @@
+
+Test Scenario: Invalid submission of contact form
+Test Case 2:
+Title: Invalid names checking
+Steps:
+6.	Go to “demoblaze.com”
+7.	Click on “Contact” button on upper ribbon
+8.	Fill in the “Name” field with each value of Test Data “Invalid Names with spaces”, one at the time.
+9.	Fill in “Email” with “test@gmail.com”
+10.	Press “Send Message” button
+Expected Result:
+3.	“Name” field becomes red
+4.	Under the “Name” field red phrase “Name should not contain spaces”
+Test Case 3:
+Title: Invalid names checking
+Steps:
+11.	Go to “demoblaze.com”
+12.	Click on “Contact” button on upper ribbon
+13.	Fill in the “Name” field with each value of Test Data “Invalid Names with symbols”, one at the time.
+14.	Fill in “Email” with “test@gmail.com”
+15.	Press “Send Message” button
+Expected Result:
+5.	“Name” field becomes red
+Under the “Name” field red phrase “Name should contain only Latin letters and dash (-)”
+
