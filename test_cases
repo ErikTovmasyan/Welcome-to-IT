@@ -1,7 +1,7 @@
 
-Test Scenario: Invalid submission of contact form
-Test Case 2:
-Title: Invalid names checking
+|Test Scenario: Invalid submission of contact form|
+|Test Case 2:|
+|Title: Invalid names checking
 Steps:
 6.	Go to “demoblaze.com”
 7.	Click on “Contact” button on upper ribbon
@@ -10,7 +10,8 @@ Steps:
 10.	Press “Send Message” button
 Expected Result:
 3.	“Name” field becomes red
-4.	Under the “Name” field red phrase “Name should not contain spaces”
+4.	Under the “Name” field red phrase “Name should not contain spaces”|
+
 Test Case 3:
 Title: Invalid names checking
 Steps:
